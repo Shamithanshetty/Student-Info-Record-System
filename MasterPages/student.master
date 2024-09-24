@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="student.master.cs" Inherits="MasterPages_student" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> STUDENT INFORMATION WEBSITE</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../ASPX_Styles/css/css/bootstrap.css" rel="stylesheet" />
+    <script src="../ASPX_Styles/js/bootstrap.min.js"></script>
+    <link href="../ASPX_Styles/css/css/font-awesome.css" rel="stylesheet" />
+    <script src="../ASPX_Styles/js/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div  style=" background-color:blueviolet;color:white;text-align:center;">
+          <h1>STUDENT REGISTRATION FORM</h1>
+            </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div  style=" background-color:hotpink;color:white;text-align:center;">
+          
+                   <div>
+                        Address
+                   </div>
+                   <div>
+                        Vivekananda college of E&T,
+                   </div>
+                        123 main street,puttur,India
+                  <div>
+                        999-888-777
+                   </div>
+                    <div>
+                        vcet@email.com
+                     </div>
+                   <div  style=" background-color:hotpink;color:white;text-align:left;">
+                    2023 Vivekananda college of E&T. All right reserved.
+                   </div>
+          </div>
+       
+
+    </form>
+</body>
+</html>
